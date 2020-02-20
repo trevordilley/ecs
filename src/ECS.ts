@@ -30,7 +30,6 @@ export const engine = (
     deltaTime: number
 ): Entity[] => {
     let entities: Entity[] = allEntities
-    console.log(entities.length)
     systems.forEach(s => {
         const [toProcess, others] = _.partition(entities, e => {
             const all = (s.allOf) ? allOf(e, Array.from(s.allOf)) : true

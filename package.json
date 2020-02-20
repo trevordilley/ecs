@@ -1,6 +1,6 @@
 {
     "name": "@trevordilley/ecs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A simple Entity Component System (ECS)",
     "homepage": "https://github.com/trevordilley",
     "keywords": [
