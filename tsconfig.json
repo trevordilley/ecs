@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "outDir": "./",
+        "target": "es5",
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "strictNullChecks": true,
+        "removeComments": true,
+        "declaration": true,
+        "sourceMap": true,
+        "lib": [
+            "es2015",
+            "dom",
+            "scripthost",
+            "esnext"
+        ],
+        "jsx": "react",
+        "typeRoots": [
+            "index.d.ts",
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+        "./src/**/*.tsx",
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
