@@ -21,8 +21,7 @@
     "scripts": {
         "build": "tsc"
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "peerDependencies": {
         "lodash": "4.17.15"
     },
