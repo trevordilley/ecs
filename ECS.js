@@ -12,7 +12,6 @@ var oneOf = function (e, expected) {
 };
 export var engine = function (allEntities, systems, deltaTime) {
     var entities = allEntities;
-    console.log(entities.length);
     systems.forEach(function (s) {
         var _a = _.partition(entities, function (e) {
             var all = (s.allOf) ? allOf(e, Array.from(s.allOf)) : true;
